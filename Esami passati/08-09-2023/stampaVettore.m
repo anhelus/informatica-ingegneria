@@ -1,7 +1,13 @@
 function stampaVettore(V)
-%STAMPA Summary of this function goes here
-%   Detailed explanation goes here
-outputArg1 = inputArg1;
-outputArg2 = inputArg2;
+%STAMPAVETTORE Stampa a video l'array V.
+
+for i = 1:length(V)
+    % str = str + V(i) + "\t";
+    fprintf("%d\t", V(i));
+end
+
+fprintf("\n");
+%fprintf(str);
+
 end
 

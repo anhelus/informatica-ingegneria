@@ -2,7 +2,7 @@ function P = assegnaPunteggioTurno(N)
 %ASSEGNAPUNTEGGIOTURNO Assegna il punteggio per ogni turno.
 
 P = zeros(1,N);
-for i = 1:3
+for i = 1:N
     for trial = 1:3
         dadoUno = randi(6);
         dadoDue = randi(6);

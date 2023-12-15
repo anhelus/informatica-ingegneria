@@ -2,8 +2,8 @@ function S = calcolaStatistiche(V)
 %CALCOLASTATISTICHE Summary of this function goes here
 %   Detailed explanation goes here
 
-minimo = V(length(V));
-massimo = V(0);
+minimo = V(1);
+massimo = V(length(V));
 
 media = 0;
 numPositivi = 0;

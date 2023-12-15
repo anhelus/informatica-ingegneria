@@ -3,7 +3,7 @@ function V = calcolaStatistiche(A)
 
 V = zeros(1, 4);
 % Vettore delle vittorie
-vittorie = zeros(1, size(A, 1));
+vittorie = zeros(1, size(A, 2));
 medie = zeros(1, size(A, 2));
 % Itero per riga
 for i = 1:size(A, 1)

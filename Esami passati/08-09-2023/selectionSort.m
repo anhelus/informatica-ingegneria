@@ -1,5 +1,5 @@
 function V = selectionSort(V)
-%ORDINAARRAY Ordina l'array V usando il selection sort
+%SELECTIONSORT Ordina l'array V usando il selection sort
 
 for i = 1:length(V)
     k = i;
@@ -8,9 +8,9 @@ for i = 1:length(V)
             k = j;
         end
     end
-    min = V(k);
+    tmp = V(k);
     V(k) = V(i);
-    V(i) = min;
+    V(i) = tmp;
 end
 
 end
